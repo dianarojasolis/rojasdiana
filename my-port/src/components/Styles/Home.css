@@ -1,0 +1,14 @@
+.HomeWrap {
+    background:#E9FFFC;
+}
+h1 ,h4{
+    color:#626C6E;
+
+}
+
+.btn-pink {
+    background-color:#F4F0FE;
+    color:#626C6E;
+    
+    align-items: flex-end;
+}

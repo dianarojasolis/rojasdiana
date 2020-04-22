@@ -1,10 +1,13 @@
 import React from 'react'
+import './Styles/Home.css'
 
 export const Home = () => {
     return (
-        <div>
-            <h1>Hola soy Diana</h1>
-        </div>
+        <div className='HomeWrap'>
+        <div className="Home">
+            <h1>Hola!</h1> 
+         </div>
+         </div>
     )
 }
 
