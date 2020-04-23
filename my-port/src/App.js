@@ -16,17 +16,26 @@ import Logo from './img/logo512.png';
 
 
 
+
 function App() {
+const projectBackground = true
+
+
   return (
+   
+    <div className={projectBackground ? "background-lightblue" : "background-white"}>
+
     <Router>
       <div className="nav flex-column">
-        <img className="Logo" alt="" src={Logo} />
+       
         
        </div>
-      <div className="container-fluid p-0">
+      
+      <div className="nav flex-column">
         
      
-        <div className="btn-group d-flex justify-content-between align-items-center">
+        <div className="btn-group d-flex justify-content-between align-items-end">
+        <img className="Logo" alt="" src={Logo} />
           <Link to="/" className="btn btn-pink ">
             Inicio
           </Link>
@@ -56,9 +65,13 @@ function App() {
           </Route>
           
           </Switch>
+          
       </div>
     </Router>
+    </div>
+
   );
+  
 }
 
 export default App;

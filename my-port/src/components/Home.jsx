@@ -3,7 +3,8 @@ import './Styles/Home.css'
 
 export const Home = () => {
     return (
-        <div className='HomeWrap'>
+        <div >
+            <hr></hr>
         <div className="Home">
             <h1>Hola!</h1> 
          </div>

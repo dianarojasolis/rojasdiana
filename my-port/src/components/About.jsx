@@ -1,13 +1,19 @@
 import React from 'react'
 import './Styles/About.css'
+const aboutBackground = true
 
 export const About = () => {
     return (
-        <div className='AboutWrap'>
-            <h1>About</h1>
-            <h4>
-            I am Diana Rojas, Frontend-Developer. I was trained in the world of Design / Audiovisual, I changed course in the search to be a contribution to technological growth. I am motivated by new challenges because I like to be constantly learning!
-            </h4>
+
+        <div className={aboutBackground ? "background-pink" : "background-white"}>
+
+        <div >
+            <hr></hr>
+            <p>
+            Me forme en el mundo del Diseño/Audiovisual lo que me permitió darme cuenta de lo necesario que es complementarse con el equipo para llegar a un buen producto. Actualmente estoy interesada en la programación, cambié de rumbo en la búsqueda de ser un aporte para el crecimiento tecnológico.
+Me caracterizo por comprometerme con nuevos desafíos y me motiva el poder seguir estudiando constantemente .
+            </p>
+        </div>
         </div>
     )
 }

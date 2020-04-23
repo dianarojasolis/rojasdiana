@@ -9,18 +9,26 @@ import './Styles/Projects.css'
 const Projects = () => {
     return (
         <Fragment>
+             <hr></hr>
         <div>
-            <h1>Projects</h1>       
+            <h1>Projectos</h1>       
         </div>
+      
 
     <div className="nav flex-column">
+    <h5> Surprise Plan</h5>
         <img className="ImgProyect" alt="" src={Cipher} />
-    </div>
+        </div>
+   
     <div className="nav flex-column">
+     <h5> Pokeboll</h5>
         <img className="ImgProyect" alt="" src={Pokemon} />
+        
     </div>
     <div className="nav flex-column">
+        <h5> SparrowPlayer</h5>
         <img className="ImgProyect" alt="" src={RedSocial} />
+       
     </div>
     </Fragment>
     )
