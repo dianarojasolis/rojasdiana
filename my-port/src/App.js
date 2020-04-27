@@ -26,13 +26,10 @@ const projectBackground = true
     <div className={projectBackground ? "background-lightblue" : "background-white"}>
 
     <Router>
-      <div className="nav flex-column">
-       
-        
-       </div>
       
-      <div className="nav flex-column">
-        
+      
+      
+        <div>
      
         <div className="btn-group d-flex justify-content-between align-items-end">
         <img className="Logo" alt="" src={Logo} />
@@ -67,9 +64,8 @@ const projectBackground = true
           </Switch>
           
       </div>
-    </Router>
-    </div>
-
+    </Router></div>
+   
   );
   
 }

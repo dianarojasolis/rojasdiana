@@ -1,7 +1,7 @@
 
 h1 ,h4, h3, h5, p{
     color:#626C6E;
-    direction: unset;
+    
 
 }
 
@@ -11,3 +11,17 @@ h1 ,h4, h3, h5, p{
     
     align-items: flex-end;
 }
+
+
+  
+  #wrapper{
+    display: flex;
+    height: 100px;
+    background-color: #E9FFFC;
+  }
+ 
+  .textHome{
+
+    display: flex;
+    justify-content: space-between;
+  }
