@@ -11,29 +11,34 @@ import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import Logo from './img/logo512.png';
+import Logo from './img/logo.png';
 
 
 
 
 
 function App() {
-const projectBackground = true
-
-
+  const projectBackground = true
+  
+  
   return (
-   
+    
+    
+    
     <div className={projectBackground ? "background-lightblue" : "background-white"}>
-
+    
     <Router>
-      
-      
-      
-        <div>
-     
-        <div className="btn-group d-flex justify-content-between align-items-end">
-        <img className="Logo" alt="" src={Logo} />
-          <Link to="/" className="btn btn-pink ">
+    
+    
+    
+   <div class="container-fluid">
+   <div class="row align-items-center">
+    <div class="col-sm-12 col-md-6">
+    <img className="Logo" alt="" src={Logo} />
+    </div>   
+    <div class="col-sm-12 col-md-6">
+    <div className="btn-group d-flex justify-content-between align-items-end">
+          <Link to="/" className="btn btn-pink">
             Inicio
           </Link>
           <Link to="/about"className="btn btn-pink">
@@ -45,29 +50,33 @@ const projectBackground = true
           <Link to="/contact"className="btn btn-pink">
             Contacto
           </Link>
-        </div>
-        
-        <Switch>
-          <Route path="/" exact>
-            <Home/>
-          </Route>
-          <Route path="/about">
-            <About/>
-          </Route>
-          <Route path="/projects">
-            <Projects/>
-          </Route>
-          <Route path="/contact">
-            <Contact/>
-          </Route>
-          
-          </Switch>
-          
-      </div>
-    </Router></div>
-   
-  );
-  
-}
 
-export default App;
+        </div>
+    </div>
+    </div>
+   </div>
+    
+    <Switch>
+    <Route path="/" exact>
+    <Home/>
+    </Route>
+    <Route path="/about">
+    <About/>
+    </Route>
+    <Route path="/projects">
+    <Projects/>
+    </Route>
+    <Route path="/contact">
+    <Contact/>
+    </Route>
+    
+    </Switch>
+    
+    
+    </Router></div>
+    
+    );
+    
+  }
+  
+  export default App;

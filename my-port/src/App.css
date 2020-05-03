@@ -1,7 +1,8 @@
 .Logo {
     
-    width: 60px; 
-    height: 50px;
+    width: 70px; 
+    height: 60px;
+    margin: 10px;
 }
 .body{
     background: #E9FFFC;
@@ -9,9 +10,22 @@
 
 .background-lightblue{
     background-color:#F1FFFB;
+    
 }
-
+.btn-success{
+    background: tomato;
+}
 .background-white{
     background-color: white;
 }
+@media all and (max-width: 800px){
 
+    .Logo{
+        width: 50px; 
+    height: 40px;
+    margin: 10px;
+
+    
+    
+    }
+}

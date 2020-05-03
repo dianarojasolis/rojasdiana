@@ -1,17 +1,29 @@
 
+
+
+
+  .gifPc{
+    height: 80%;
+    width: 80%;
+  
+}
+
 h1 ,h4, h3, h5, p{
-    color:#626C6E;
+    color:#1D04A3;
+    flex-direction: row;
     
 
 }
 
 .btn-pink {
     background-color:#F4F0FE;
-    color:#626C6E;
+    color:#1D04A3;
     
     align-items: flex-end;
 }
-
+.btn-danger{
+  background-color: #1D04A3;;
+}
 
   
   #wrapper{
@@ -23,5 +35,17 @@ h1 ,h4, h3, h5, p{
   .textHome{
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
+ 
+  .backHome {
+    height: 100%;
+    width: 100%;
+
+  }
+
+  @media all and (max-width: 800px){
+
+  }
+ 
+@media all and (max-width: 480px){}

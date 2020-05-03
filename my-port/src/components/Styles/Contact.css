@@ -1,8 +1,14 @@
 .btnContact{
     background: #F4F0FE;
-   color:grey;
+   color:#1D04A3;
    border: none;
    border-radius: 15px;
    width:100px; 
     height: 20x;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

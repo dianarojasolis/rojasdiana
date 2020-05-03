@@ -1,22 +1,37 @@
 import React from 'react'
+import backHome from '../img/homeweb.jpg';
+import gifHola from '../img/holadiana.gif';
+import Sonido from '../audio/electric.mp3';
 import './Styles/Home.css'
 
+var backgroundHome = {
+    width: "100%",
+    height: "1000px",
+    backgroundImage: `url(${backHome})`
+};
 export const Home = () => {
     return (
-     <div id="wrapper">
-         <div class="mh-100">
-            <hr></hr>
-        <div className="Home">
-            <div className="textHome">
-            <h3>Hola! soy</h3>
-            <h1>Diana!</h1> 
-            <h3>Font-end Developer </h3>
-            </div>
-         </div>
-         
-         </div>
-         </div>
-    )
-}
+        <section style={ backgroundHome}>
 
-export default Home
+        <div className="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">   
+                    <div className="hola">
+                        <img className="gifPc" alt="" src={gifHola} />
+                        </div>
+        </div>
+              </div>
+                        <div class="col-sm-12">  
+                        <div class="row">
+                        <audio controls>
+                        <source src={Sonido} type={Sonido.mp3 }/>
+                        </audio>
+                    </div>
+                </div>
+                
+                </div>
+        </section>    
+        )
+    }
+    
+    export default Home
