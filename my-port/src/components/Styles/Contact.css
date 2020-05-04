@@ -12,3 +12,15 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.Email{
+    width: 5%; 
+    height: auto;
+
+}
+
+.Movil{
+    width: 6%; 
+    height: auto;
+
+}

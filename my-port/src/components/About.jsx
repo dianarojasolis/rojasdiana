@@ -1,48 +1,45 @@
 import React from 'react'
-import Avatar from '../img/aboutPaint.gif';
+import Paint from '../img/aboutPaint.gif';
 import './Styles/About.css'
-import backAbout from'../img/aboutweb.jpg';
+import backAbout from'../img/aboutweb2.jpg';
 
 
 var backgroundAbout = {
-    width: "100%",
-    height: "1000px",
+    width:"100%",
+    height: "700px",
     backgroundImage: `url(${backAbout})`
 };
 export const About = () => {
     return (
-      
-        <section style={ backgroundAbout}>
-            <div class="container"> 
-        <div class="row ">
-<br></br>
-<br></br>
-        <div class="col-sm-12 col-md-6">
-<div class="row col-sm-4 col-md-12">
-    <div className="textAbout ">
-<p>
-Soy Diana Rojas.
-Me forme en el mundo del Diseño/Audiovisual lo que me permitió darme cuenta de lo necesario que es complementarse con el equipo para llegar a un buen producto. Actualmente estoy interesada en la programación, cambié de rumbo en la búsqueda de ser un aporte para el crecimiento tecnológico.
-
-Me caracterizo por comprometerme con nuevos desafíos y me motiva el poder seguir estudiando constantemente .
-
-En mis tiempos libres me gusta ilustrar, ver peliculas y series generalmente thrillers , igualmente con los libros.  
-</p>
-</div>
+        <div id="root" style={ backgroundAbout} >
+        <div class="container-fluid mt-5"> 
+        <section >
+         
+<div class="row">
+    <div class="col-sm-12 col-md-6">
+    <img className="Paint" alt="" src={Paint}/>
     </div>
 
-    </div>
-   
-<div class="col-sm-12 col-md-6">
-<div class="row col-sm-4 col-md-12">
-    <img className="Avatar" alt="" src={Avatar}/>
-    </div>
-</div>   
+<div class="col-sm-12 col-md-6 ">
+    <p>
+    Soy Diana Rojas.
+    Me forme en el mundo del Diseño/Audiovisual lo que me permitió darme cuenta de lo necesario que es complementarse con el equipo para llegar a un buen producto. 
+    </p>
+    <p>Actualmente estoy interesada en la programación, cambié de rumbo en la búsqueda de ser un aporte para el crecimiento tecnológico.
+    </p>
 
-</div>  
-</div>
-</section>
+    <p>Me caracterizo por comprometerme con nuevos desafíos y me motiva el poder seguir estudiando constantemente .
+    </p>
     
+    <p>En mis tiempos libres me gusta ilustrar, ver peliculas y series generalmente thrillers , igualmente con los libros.  
+    </p>
+
+    </div>
+</div>  
+
+ </section>
+</div> 
+</div> 
     )
 }
 

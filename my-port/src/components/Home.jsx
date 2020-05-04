@@ -6,31 +6,31 @@ import './Styles/Home.css'
 
 var backgroundHome = {
     width: "100%",
-    height: "1000px",
+    height: "700px",
     backgroundImage: `url(${backHome})`
 };
 export const Home = () => {
     return (
-        <section style={ backgroundHome}>
-
-        <div className="container">
+        <div class="container mt-5" style={ backgroundHome}> 
+        <section >
             <div class="row">
-                <div class="col-sm-12 col-md-12">   
+                <div class="col-sm-12 col-md-6">   
                     <div className="hola">
                         <img className="gifPc" alt="" src={gifHola} />
-                        </div>
-        </div>
-              </div>
-                        <div class="col-sm-12">  
-                        <div class="row">
-                        <audio controls>
-                        <source src={Sonido} type={Sonido.mp3 }/>
-                        </audio>
                     </div>
                 </div>
-                
+            </div>
+            <div class="col-sm-12">  
+                <div class="row">
+                    <audio controls>
+                    <source src={Sonido} type={Sonido.mp3 }/>
+                    </audio>
                 </div>
-        </section>    
+            </div>
+                
+              
+        </section>   
+        </div> 
         )
     }
     

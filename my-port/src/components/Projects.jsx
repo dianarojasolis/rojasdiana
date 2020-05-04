@@ -8,7 +8,7 @@ import './Styles/Projects.css'
 
 var backgroundProjects = {
     width: "100%",
-    height: "1000px",
+    height: "700px",
     backgroundImage: `url(${backProjects})`
 };
 
@@ -48,73 +48,101 @@ const Projects = () => {
     return (
 
       
-        <div class="container-fluid"> 
+        
+        <section >
+        <div class="container mt-5 "style={ backgroundProjects}>  
 
-        <section style={ backgroundProjects}>
       
-   <div class="row">
+   <div class="row mt-5">
     
         <div class="col-sm-12 col-md-4">
          <div class="row">
+            <div class="col-sm-12 mt-5">
             <h5> Pokeboll</h5> 
+            </div>
         </div>
-     <div class="row">
-        <div class="col-m12">
+     <div class="row mt-1">
+        <div class="col-sm-12 ">
             <img className="ImgProyect" alt="" src={Pokemon} />
         </div>
     </div>
-        
+    <div class="row mt-2">
+        <div class="col-sm-12 col-md-12">
+            <p>
+                En esta app encontrarás información básica sobre los Pokemones que debes atrapar en Pokemon Go !.
+            </p>
+        </div>
+    </div>
+    <div class="row  mt-2">
             <div class="col-sm-12 col-md-12">
-            <div class="row">
-                <button className="BtnProject"  onClick={pokebollLink}>Ver código</button>
-                <button  className="BtnProject"  onClick={pokebollLink2}>Ver Web</button>
+                <button className="BtnProject "  onClick={pokebollLink}>Ver código</button>
+                <button  className="BtnProject "  onClick={pokebollLink2}>Ver Web</button>
             </div>
          </div>
     </div>
 
 
 <div class="col-sm-12 col-md-4">
-    <div class="row">
+    <div class="row mt-1">
+        <div class="col-sm-12 mt-5">
             <h5> My Tops / Oscars Edition</h5>
      </div>
+     </div>
         <div class="row">
-            <div class="col-m12">
+            <div class="col-sm-12">
                 <img className="ImgProyect" alt="" src={DataMovie} />
              </div>
         </div>
-           
+        <div class="row mt-2">
+        <div class="col-sm-12 col-md-12">
+            <p>
+                En My Tops version Oscars Editios, tendrás la oportunidad de escoger tus ganadores y compartir con tus amigos.
+            </p>
+        </div>
+    </div>
+        <div class="row mt-2">
                 <div class="col-sm-12 col-md-12">
-                <div class="row">
-                    <button className="BtnProject"  onClick={dataMovie}>Ver código</button>
-                     <button className="BtnProject"  onClick={dataMovie2}>Ver Web</button>
+                    <button className="BtnProject "  onClick={dataMovie}>Ver código</button>
+                     <button className="BtnProject "  onClick={dataMovie2}>Ver Web</button>
                      </div>
                  </div>
             </div>
       
    
     <div class="col-sm-12 col-md-4">
-        <div class="row">
+        <div class="row mt-1">
+        <div class="col-sm-12 mt-5">
             <h5> Surprise Plan</h5>
         </div>
-    <div class="row">
-         <div class="col-m12">
+        </div>
+    <div class="row mt-2">
+         <div class="col-sm-12">
             <img className="ImgProyect" alt="" src={Cipher} />
         </div>
     </div>
+    <div class="row mt-2">
         <div class="col-sm-12 col-md-12">
-            <div class="row">
-              <button className="BtnProject" onClick={cipherLink}>Ver código</button>
-              <button className="BtnProject"  onClick={cipherLink2}>Ver Web</button>
+            <p>
+                Sitio web donde podrás cifrar mensajes secretos con tus amigos para planear eventos sorpres.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+              <button className="BtnProject " onClick={cipherLink}>Ver código</button>
+              <button className="BtnProject "  onClick={cipherLink2}>Ver Web</button>
              </div>
          </div>
+         
     </div>
+    
  
-
+    </div>
 
     </div>
         </section>
 
-   </div>
+  
 
     )};
 

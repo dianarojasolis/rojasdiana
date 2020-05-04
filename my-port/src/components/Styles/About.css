@@ -5,27 +5,9 @@
 .background-white{
     background-color: white;
 }
-.Avatar {
-    width: 400px; 
-    height: 400px;
-    margin: 10px;
-}
-
-
-.textAbout{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    line-height: 3.5;
-}
-@media all and (max-width: 800px){
-    .textAbout{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-}
-}
-
-@media all and (max-width: 480px){
+.Paint {
+    width: 100%; 
+    height: auto;
    
 }
+

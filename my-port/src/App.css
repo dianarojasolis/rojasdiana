@@ -18,6 +18,7 @@
 .background-white{
     background-color: white;
 }
+
 @media all and (max-width: 800px){
 
     .Logo{
@@ -29,3 +30,4 @@
     
     }
 }
+@media (max-width: 447px) 
