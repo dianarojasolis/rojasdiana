@@ -12,7 +12,7 @@ var backgroundAbout = {
 export const About = () => {
     return (
         <div id="root" style={ backgroundAbout} >
-        <div class="container-fluid mt-5"> 
+        <div class="container mt-5"> 
         <section >
          
 <div class="row">
@@ -20,10 +20,10 @@ export const About = () => {
     <img className="Paint" alt="" src={Paint}/>
     </div>
 
-<div class="col-sm-12 col-md-6 ">
+<div class="col-sm-12 col-md-6 mt-3">
     <p>
-    Soy Diana Rojas.
-    Me forme en el mundo del Diseño/Audiovisual lo que me permitió darme cuenta de lo necesario que es complementarse con el equipo para llegar a un buen producto. 
+    Mi nombre es Diana Rojas Solis,
+    me forme en el mundo del Diseño/Audiovisual lo que me permitió darme cuenta de lo necesario que es complementarse con el equipo para llegar a un buen producto. 
     </p>
     <p>Actualmente estoy interesada en la programación, cambié de rumbo en la búsqueda de ser un aporte para el crecimiento tecnológico.
     </p>

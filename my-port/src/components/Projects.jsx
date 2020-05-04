@@ -48,12 +48,13 @@ const Projects = () => {
     return (
 
       
+        <div class="container ">  
+
+        <section style={ backgroundProjects} >
         
-        <section >
-        <div class="container mt-5 "style={ backgroundProjects}>  
 
       
-   <div class="row mt-5">
+   <div class="row mt-3">
     
         <div class="col-sm-12 col-md-4">
          <div class="row">
@@ -71,6 +72,7 @@ const Projects = () => {
             <p>
                 En esta app encontrarás información básica sobre los Pokemones que debes atrapar en Pokemon Go !.
             </p>
+            <p class="font-weight-bold font-italic">Html - Api - Js - Css - FleaxBox</p>
         </div>
     </div>
     <div class="row  mt-2">
@@ -98,6 +100,7 @@ const Projects = () => {
             <p>
                 En My Tops version Oscars Editios, tendrás la oportunidad de escoger tus ganadores y compartir con tus amigos.
             </p>
+            <p class="font-weight-bold font-italic">Html - Api - Js - Css - Materialize</p>
         </div>
     </div>
         <div class="row mt-2">
@@ -125,24 +128,28 @@ const Projects = () => {
             <p>
                 Sitio web donde podrás cifrar mensajes secretos con tus amigos para planear eventos sorpres.
             </p>
+            <p class="font-weight-bold font-italic">Html - Js - Css </p>
         </div>
     </div>
-    <div class="row">
-        <div class="col-sm-12 col-md-12">
+  
+        <div class="row">
+        <div class="col-sm-6 col-md-12 ">
               <button className="BtnProject " onClick={cipherLink}>Ver código</button>
               <button className="BtnProject "  onClick={cipherLink2}>Ver Web</button>
-             </div>
+              </div>
          </div>
+         
+        
          
     </div>
     
  
-    </div>
+
 
     </div>
         </section>
 
-  
+   </div>
 
     )};
 

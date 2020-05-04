@@ -7,11 +7,7 @@
     height: 20x;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 
 .Email{
     width: 5%; 
@@ -20,6 +16,16 @@
 }
 
 .Movil{
+    width: 6%; 
+    height: auto;
+
+}
+.imgGithub{
+    width: 6%; 
+    height: auto;
+
+}
+.imgLinkedin{
     width: 6%; 
     height: auto;
 

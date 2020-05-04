@@ -11,26 +11,27 @@ var backgroundHome = {
 };
 export const Home = () => {
     return (
-        <div class="container mt-5" style={ backgroundHome}> 
-        <section >
+        <div class="container mt-5" > 
+        <section style={ backgroundHome} >
+
+        <div class="row">
+    <div class="img-fluid col-sm-12 col-md-6">
+    <img className="gifCompu" alt="" src={gifHola} />
+    </div>
+    </div>
+     
+         
             <div class="row">
-                <div class="col-sm-12 col-md-6">   
-                    <div className="hola">
-                        <img className="gifPc" alt="" src={gifHola} />
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12">  
-                <div class="row">
-                    <audio controls>
+                <div class="col-sm- col-md-6">  
+                 <audio controls >
                     <source src={Sonido} type={Sonido.mp3 }/>
-                    </audio>
+                    </audio>      
+                               
                 </div>
             </div>
-                
-              
-        </section>   
-        </div> 
+        </section>  
+         </div>  
+      
         )
     }
     
